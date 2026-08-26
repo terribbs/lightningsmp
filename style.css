@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+nav h1 {
+    font-size: 4rem;
+    display: flex;
+    margin: 1rem;
+    padding-left: 0;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-right: 1.15rem;
+    padding-left: 1.15rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    color:white;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 100rem;
+    margin: 0 auto
+}
+
+main h2 {
+    font-size: 3rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#dc-link {
+    margin: 1rem;
+}
+
+.box {
+    border: 0.5rem;
+    border-style: solid;
+    border-radius: 0rem;
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+    border-color: rgb(48, 48, 48);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.box h5 {
+    font-size: 1.5rem;
+    margin: 2rem;
+    margin-top: 1.7rem;
+}
+
+.button {
+    border-color: red;
+    display: inline-block;
+    margin: 0.7rem;
+}
+
+.button a {
+    border: 0.2rem;
+    border-style: solid;
+    color: red;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+}
+
+.button:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1.5rem;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
